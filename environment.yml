@@ -1,0 +1,36 @@
+name: foundobj
+channels:
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - pyyaml
+  - tqdm
+  - joblib
+  - scikit-learn
+  - scikit-image
+  - pillow
+  - imageio
+  - rtree
+  - pip:
+    - trimesh>=4.0
+    - python-fcl
+    - plyfile
+    - open3d>=0.19.0
+    - point-cloud-utils
+    - easydict
+    - huggingface-hub
+    - loguru
+    - natsort
+    - opencv-python
+    - omegaconf
+    - safetensors
+    - einops
+    - lpips
+    - transformers
